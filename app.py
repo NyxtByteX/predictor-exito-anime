@@ -6,6 +6,7 @@ import joblib
 st.set_page_config(page_title="Predicción de Anime", layout="centered")
 
 st.title("🔮 Predicción de Éxito de un Anime")
+st.image("https://images7.alphacoders.com/740/thumb-1920-740446.jpg", use_container_width=True)
 st.markdown("**(Alumno: ANA VICTORIA DE LA VEGA PANDO - Código ISIL: 76746502)**")
 st.markdown("[🔗 Enlace a mi Google Colab (Solo lectura) - HAZ CLIC AQUÍ](PON_AQUI_TU_LINK_DE_COLAB)")
 st.write("---")
