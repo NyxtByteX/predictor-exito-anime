@@ -1,1 +1,15 @@
-Crea una aplicación en Streamlit que permita predecir si un anime será popular o no popular utilizando un modelo Random Forest guardado en formato pkl.
+PROMPT UTILIZADO:
+"Actúa como un desarrollador web experto en Python.
+ Crea un script llamado app.py usando Streamlit. 
+ La aplicación debe cargar un modelo de Machine Learning guardado 
+ como 'modelos/modelo_anime.pkl' y una lista de columnas en
+'modelos/columnas_x.pkl'. Debe pedirle al usuario 3 datos de un
+anime: Tipo (desplegable con TV, Movie, OVA, Special, ONA, Music),
+Episodios (número) y Miembros (número). Con estos datos,
+debe crear un DataFrame, aplicar One-Hot Encoding ajustado 
+a la lista de columnas cargada, y hacer una predicción. Si la 
+predicción es 1, muestra un mensaje de éxito diciendo que el
+anime será un éxito (Rating >= 7), de lo contrario, muestra que
+tendrá un rating bajo."Crea una aplicación en Streamlit que permita 
+predecir si un anime será popular o no popular utilizando un modelo 
+Random Forest guardado en formato pkl.
