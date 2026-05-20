@@ -11,7 +11,7 @@ st.title("🎌 Anime Popularity Predictor")
 st.write("Anita Victoria de la Vega")
 st.write("Código ISIL: TU_CODIGO")
 
-st.markdown("[Ver Google Colab](PEGA_AQUI_TU_LINK)")
+st.markdown("[Ver Google Colab](https://colab.research.google.com/drive/16v2MH2GRI56DD0CFavKbGtO3e8Ylw-qg?usp=sharing)")
 
 st.image("https://cdn.myanimelist.net/images/anime/10/47347.jpg")
 
