@@ -1,0 +1,1 @@
+Crea una aplicación en Streamlit que permita predecir si un anime será popular o no popular utilizando un modelo Random Forest guardado en formato pkl.
