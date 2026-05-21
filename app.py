@@ -89,7 +89,7 @@ if st.button("🔮 Predecir y Recomendar"):
         
         # Filtro estricto para asegurar que contenga todos los géneros que seleccioné
         for genero in generos_usuario:
-            recomendaciones = recommendations[recomendaciones['genre'].str.contains(genero, na=False)]
+            recomendaciones = recomendaciones[recomendaciones['genre'].str.contains(genero, na=False)]
             
         # Ordeno por los mejores calificados de mi base de datos
         recomendaciones = recomendaciones.sort_values(by='rating', ascending=False)
